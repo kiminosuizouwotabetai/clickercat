@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\CatClicker\CatClicker\obj\Debug\CatClicker.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\CatClicker\CatClicker\obj\Debug\CatClicker.Form1.resources
+C:\Users\Admin\source\repos\CatClicker\CatClicker\obj\Debug\CatClicker.Properties.Resources.resources
+C:\Users\Admin\source\repos\CatClicker\CatClicker\obj\Debug\CatClicker.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\CatClicker\CatClicker\obj\Debug\CatClicker.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CatClicker\CatClicker\bin\Debug\CatClicker.exe.config
+C:\Users\Admin\source\repos\CatClicker\CatClicker\bin\Debug\CatClicker.exe
+C:\Users\Admin\source\repos\CatClicker\CatClicker\bin\Debug\CatClicker.pdb
+C:\Users\Admin\source\repos\CatClicker\CatClicker\obj\Debug\CatClicker.exe
+C:\Users\Admin\source\repos\CatClicker\CatClicker\obj\Debug\CatClicker.pdb
