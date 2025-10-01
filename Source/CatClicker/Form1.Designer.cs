@@ -32,7 +32,6 @@
             this.catPictureBox = new System.Windows.Forms.PictureBox();
             this.scoreLabel = new System.Windows.Forms.Label();
             this.clickValueLabel = new System.Windows.Forms.Label();
-            this.boostButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.catPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,7 +42,7 @@
             this.catPictureBox.Location = new System.Drawing.Point(89, 97);
             this.catPictureBox.Name = "catPictureBox";
             this.catPictureBox.Size = new System.Drawing.Size(200, 200);
-            this.catPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.catPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.catPictureBox.TabIndex = 0;
             this.catPictureBox.TabStop = false;
             this.catPictureBox.Click += new System.EventHandler(this.catPictureBox_Click);
@@ -71,30 +70,18 @@
             this.clickValueLabel.Text = "Количество кликов: 1";
             this.clickValueLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // boostButton
-            // 
-            this.boostButton.BackColor = System.Drawing.Color.LightBlue;
-            this.boostButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.boostButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.boostButton.Location = new System.Drawing.Point(141, 303);
-            this.boostButton.Name = "boostButton";
-            this.boostButton.Size = new System.Drawing.Size(100, 40);
-            this.boostButton.TabIndex = 3;
-            this.boostButton.Text = "ТУРБОБУСТ";
-            this.boostButton.UseVisualStyleBackColor = false;
-            this.boostButton.Click += new System.EventHandler(this.boostButton_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.BackgroundImage = global::CatClicker.Properties.Resources._1;
+            this.BackgroundImage = global::CatClicker.Properties.Resources._2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(374, 439);
-            this.Controls.Add(this.boostButton);
             this.Controls.Add(this.clickValueLabel);
             this.Controls.Add(this.scoreLabel);
             this.Controls.Add(this.catPictureBox);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Clicker";
@@ -110,7 +97,6 @@
         private System.Windows.Forms.PictureBox catPictureBox;
         private System.Windows.Forms.Label scoreLabel;
         private System.Windows.Forms.Label clickValueLabel;
-        private System.Windows.Forms.Button boostButton;
     }
 }
 
